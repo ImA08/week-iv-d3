@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+    background-color: #FEFFD2;
+  font-family: "Iansui", cursive;
+
+}
+
+body > *{
+    padding: 130px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form input{
+  width: 30%;
+  padding: 10px;
+  margin: 5px 0;  
+}
+
+form textarea {
+  min-width: 300px;
+  min-height: 100px;
+  width: 80%;
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 0.75rem;  
+}
+
+form button {
+  cursor: pointer;
+  user-select: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  border: #FEFFD2;
+}
+
+form button:hover{
+    scale: 1.1;
+}
+
+
+
+.fetch-data {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #E5D0AC;
+    width: 100%;    
+}
+
+.fetch-data > h2 {
+    padding: 10px 0;
+}
+
+.fetch-data .users {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fetch-data .users ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid #000;
+    padding: 10px;    
+}
+
+.fetch-data .users ul li:nth-child(2) {
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.fetch-data .users ul li:nth-child(2)::first-letter{
+    text-transform: uppercase;
+}
+
+.fetch-data .users ul li:nth-child(3){
+    font-style: italic;
+}
+
+li {
+    list-style-type: none;
+}
